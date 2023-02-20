@@ -21,6 +21,10 @@ public class SubtractTest {
         double inputB = 0.1;
         double expected = 1.0;
         double actual = s.sub(inputA, inputB);
+        extracted(expected, actual);
+    }
+
+    private void extracted(double expected, double actual) {
         Assert.assertEquals(expected, actual, .01);
     }
     /**
@@ -34,7 +38,7 @@ public class SubtractTest {
         double inputB = 0.5;
         double expected = 0.2;
         double actual = s.sub(inputA, inputB);
-        Assert.assertEquals(expected, actual, .01);
+        extracted(expected, actual);
     }
     /**
      * 100.2 minus 50.1 is 50.1.
@@ -47,7 +51,7 @@ public class SubtractTest {
         double inputB = 50.1;
         double expected = 50.1;
         double actual = s.sub(inputA, inputB);
-        Assert.assertEquals(expected, actual, .01);
+        extracted(expected, actual);
     }
 
 }
