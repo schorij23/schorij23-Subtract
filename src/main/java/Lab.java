@@ -8,7 +8,7 @@ public class Lab {
      *
      * Doubles represent numbers that may contain decimals. Whether you use an int or double in your projects
      * depends on the use case. (For instance, you count the number of puppies at your pet store with int / whole
-     * numbers, but prices are better represented with doubles / decimal numbers.)
+     * numbers,    *but prices are better represented with doubles / decimal numbers.)
      *
      * @param a some decimal number
      * @param b some decimal number
